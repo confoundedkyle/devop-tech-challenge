@@ -1,10 +1,10 @@
 # devop-tech-challenge
 
-wtw-tech-challenge
+# wtw-tech-challenge
 This code performs the following actions
 •	Provisions Ubuntu VM in Azure Cloud using Terraform
 •	Installs NGINX and configures per assignment specifications using Salt Stack
-Pre-Requisites
+# Pre-Requisites
 •	Terraform Installed
 •	Azure CLI Installed and authenticated ("az login")
 Steps
