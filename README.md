@@ -1,4 +1,4 @@
-# wtw-tech-challenge
+# devop-tech-challenge
 This code performs the following actions
 * Provisions Ubuntu VM in Azure Cloud using Terraform
 * Installs NGINX and configures per assignment specifications using Salt Stack
@@ -11,7 +11,7 @@ This code performs the following actions
 ## Steps
 1. Clone Repository and change to Terraform directory
     ```
-    git clone git@github.com:jeremyjensen3/wtw-tech-challenge.git && cd wtw-tech-challenge/terraform
+    git clone git@github.com:confoundedkyle/devop-tech-challenge.git && cd devop-tech-challenge/terraform
     ```
 2. Update changeme.tfvars with public IP and Public SSH key that will be used for administration of VM
 
