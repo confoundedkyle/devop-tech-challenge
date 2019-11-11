@@ -1,9 +1,12 @@
-# Virtual Host configuration for example.com	
-	server {
-	listen 3200;
-	listen [::]:3200;
-	server_name www.example.com;
-	location / {
-	proxy_pass http://localhost:3400;
-	}
-	}
+www-example-com
+
+# Virtual Host configuration for example.com
+server {
+        listen 3200;
+        listen [::]:3200;
+        
+        server_name www.example.com;
+location / {
+          proxy_pass http://localhost:3400;
+        }
+}
