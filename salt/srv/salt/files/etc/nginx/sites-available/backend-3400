@@ -2,9 +2,9 @@ server {
         listen 3400 default_server;
         listen [::]:3400 default_server;
 
-server_name _;
+        server_name _;
 
-root /var/www/html;
+        root /var/www/html;
         index index.html;
         
         location / {
